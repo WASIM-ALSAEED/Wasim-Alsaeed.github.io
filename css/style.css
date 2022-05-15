@@ -648,7 +648,7 @@ textarea{
 	left: 50%;
 	transform: translateX(-50%);
 	top: 25px;
-	height: 425px;
+	height: 560px;
 	width: 2px;
 	background: var(--theme_color);
 }
@@ -724,6 +724,12 @@ textarea{
 	right: 30%;
 	transform: translateX(50%);
 	top: 420px;
+}
+
+.timeline .timeline_item:nth-child(5){
+	left: 30%;
+	transform: translateX(-50%);
+	top: 570px;
 }
 .timeline .timeline_item:nth-child(2):before,
 .timeline .timeline_item:nth-child(4):before{
@@ -982,6 +988,9 @@ textarea{
 	display: block;
 	font-size: var(--small_text);
 	color: var(--light_silver);
+}
+#Contect_Me_Portion{
+	margin-top: 60px;
 }
 /*/CONTECT ME PORTION*/
 /* FOOTER PORTION*/
