@@ -648,7 +648,7 @@ textarea{
 	left: 50%;
 	transform: translateX(-50%);
 	top: 25px;
-	height: 560px;
+	height: 870px;
 	width: 2px;
 	background: var(--theme_color);
 }
@@ -731,6 +731,19 @@ textarea{
 	transform: translateX(-50%);
 	top: 570px;
 }
+
+.timeline .timeline_item:nth-child(6){
+	right: 30%;
+	transform: translateX(50%);
+	top: 720px;
+}
+
+.timeline .timeline_item:nth-child(7){
+	left: 30%;
+	transform: translateX(-50%);
+	top: 870px;
+}
+.timeline .timeline_item:nth-child(6):before,
 .timeline .timeline_item:nth-child(2):before,
 .timeline .timeline_item:nth-child(4):before{
 	left: -18px;
@@ -990,7 +1003,7 @@ textarea{
 	color: var(--light_silver);
 }
 #Portion_Heading2{
-	margin-top: 150px;
+	margin-top: 450px;
 }
 /*/CONTECT ME PORTION*/
 /* FOOTER PORTION*/
